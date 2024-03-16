@@ -13,7 +13,6 @@ target/
 
 # Visual Studio Code
 .vscode
-.factorypath
 
 ### IntelliJ IDEA ###
 .idea
