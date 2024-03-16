@@ -13,5 +13,5 @@ mvn exec:java
 Run Mutation test using command:
 
 ```
-mvn test-compile org.pitest:pitest-maven:mutationCoverage
+mvn clean test-compile org.pitest:pitest-maven:mutationCoverage
 ```
