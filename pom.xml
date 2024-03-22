@@ -76,7 +76,7 @@
                     <limit>
                       <counter>LINE</counter>
                       <value>COVEREDRATIO</value>
-                      <minimum>80%</minimum>
+                      <minimum>100%</minimum>
                     </limit>
                   </limits>
                 </rule>
@@ -103,7 +103,7 @@
             <param>com.mutation.demoService.service*</param>
           </targetClasses>
           <targetTests>
-            <param>com.mutation.demoService.service*</param>
+            <param>com.mutation.testing.service*</param>
           </targetTests>
         </configuration>
       </plugin>
